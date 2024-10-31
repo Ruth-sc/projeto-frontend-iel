@@ -1,0 +1,45 @@
+.product-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.option {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  position: relative;
+}
+
+.option.selected {
+  border-color: #C92071;
+}
+
+.option.text.selected {
+  background-color: #C92071;
+  color: #fff;
+}
+
+.option.color.selected {
+  border-color: #C92071;
+}
+
+.option-text {
+  font-size: 16px;
+  color: #333;
+}
+
+.selected-circle {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 2px solid #C92071;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
