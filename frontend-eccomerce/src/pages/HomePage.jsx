@@ -3,6 +3,7 @@ import Gallery from "../components/Gallery";
 import Section from "../components/Section";
 import ProductListing from "../components/ProductListing";
 import "../css/HomePage.css";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   const products = [
@@ -99,10 +100,10 @@ const HomePage = () => {
   ];
 
   return (
-    <div className="homepage-container">
+    <div className="homepage-container"link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
       <section className="hero-section">
-        <div className="hero-text">
-          <p className="hero-subtitle">Melhores ofertas personalizadas</p>
+        <div className="hero-text" link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+          <p className="hero-subtitle" >Melhores ofertas personalizadas</p>
           <h1 className="hero-title">Queima de estoque Nike <span role="img" aria-label="fire">🔥</span></h1>
           <p className="hero-description">
             Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.
@@ -121,7 +122,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <Section title="Coleções em destaque">
+      <Section title="Coleções em destaque" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
         <div className="collections-container">
           {collections.map((collection, index) => (
             <div key={index} className="collection-card">

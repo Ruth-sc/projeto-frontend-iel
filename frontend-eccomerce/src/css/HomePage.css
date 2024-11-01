@@ -10,40 +10,44 @@
   width: 100%;
   padding: 40px 20px;
   background-color: #f5f5f5;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   height: 600px; /* Ajuste a altura conforme necessário */
 }
 
 .hero-text {
   width: 40%; /* 40% da largura da seção */
-  padding-right: 20px;
+  padding-right: 30px;
   padding-left: 30px;
 }
 
 .hero-subtitle {
-  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
   color: #F6AA1C; /* Cor laranja para o subtítulo */
-  margin-bottom: 1px;
+  margin-bottom: 15px;
   margin-top: 2px;
-  font-weight: bold;
+  font-weight: 600;
 
 
 }
 
 .hero-title {
-  font-size: 67px;
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
   color: #1F1F1F;
-  margin-bottom: 1px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-  margin-top:2px;
+  font-size: 62px;
+  font-weight: 900;
+  line-height: 66px;
+  letter-spacing: 0.9999998808907104px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .hero-description {
-  font-size: 20px;
-  color: #474747
-  ;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #474747;
   margin-bottom: 40px;
+  font-weight: 100;
 }
 
 .hero-button {
@@ -53,8 +57,10 @@
   color: #fff;
   border-radius: 4px;
   text-decoration: none;
-  font-weight: bold;
-  width: 100px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  width: 120px;
   height: 20px;
   text-align: center;
 }
@@ -119,7 +125,7 @@
   gap: 10px;
   justify-content: space-between;
   width: 100%; /* Ocupa toda a largura da tela */
-  padding: 0px 150px;
+  padding: 10px 150px;
 
 }
 
@@ -128,7 +134,7 @@
   border-radius: 8px;
   overflow: hidden;
   text-align:left;
-  width: 485px;
+  width: 500px;
   height: 250px;
    /* Faz com que os cards cresçam proporcionalmente */
   
@@ -136,7 +142,7 @@
 
 .collection-image {
   width: 100%;
-  height: 90%;
+  height: 100%;
   border-radius: 4px ; 
 }
 
@@ -146,26 +152,28 @@
 
 .collection-discount {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 15px;
+  left: 20px;
   background-color: #E7FF86;
   color: #474747;
   font-weight: bold;
-  padding: 5px 10px;
+  font-family:'Roboto', sans-serif;
+  padding: 7px 12px;
   border-radius: 29px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .collection-button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 30px;
   background-color: #F5F5F5;
   color: #C92071;
   border-radius: 4px;
   text-decoration: none;
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
   position: absolute;
-  bottom: 30px; /* Subiu um pouco o botão na imagem */
+  bottom: 40px; /* Subiu um pouco o botão na imagem */
   left: 15px;
 }
 
