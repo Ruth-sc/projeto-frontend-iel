@@ -1,0 +1,228 @@
+.homepage-container {
+  background-color: #fff;
+}
+
+/* Estilos para a seção Hero */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+  margin-bottom: 50px;
+  height: 600px; /* Ajuste a altura conforme necessário */
+}
+
+.hero-text {
+  width: 40%; /* 40% da largura da seção */
+  padding-right: 20px;
+  padding-left: 30px;
+}
+
+.hero-subtitle {
+  font-size: 21px;
+  color: #F6AA1C; /* Cor laranja para o subtítulo */
+  margin-bottom: 1px;
+  margin-top: 2px;
+  font-weight: bold;
+
+
+}
+
+.hero-title {
+  font-size: 67px;
+  font-weight: bold;
+  color: #1F1F1F;
+  margin-bottom: 1px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  margin-top:2px;
+}
+
+.hero-description {
+  font-size: 20px;
+  color: #474747
+  ;
+  margin-bottom: 40px;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #C92071;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+}
+
+.hero-gallery {
+  width: 60%; /* 60% da largura da seção */
+  height: 100%; /* Preenche a altura da seção */
+}
+
+.featured-collections {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.featured-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.featured-collections-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+.featured-collection-item {
+  text-align: center;
+  
+}
+
+.featured-icon-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  ;
+}
+
+.featured-icon {
+  max-width: 90px;
+  max-height: 90px;
+}
+
+.featured-label {
+  font-size: 14px;
+  color: #525151;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+
+
+}
+
+/* Estilos para Coleções em Destaque */
+.collections-container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%; /* Ocupa toda a largura da tela */
+  padding: 0px 150px;
+
+}
+
+.collection-card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align:left;
+  width: 485px;
+  height: 250px;
+   /* Faz com que os cards cresçam proporcionalmente */
+  
+}
+
+.collection-image {
+  width: 100%;
+  height: 90%;
+  border-radius: 4px ; 
+}
+
+.collection-info {
+  position: relative;
+}
+
+.collection-discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #E7FF86;
+  color: #474747;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 29px;
+  font-size: 14px;
+}
+
+.collection-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #F5F5F5;
+  color: #C92071;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  position: absolute;
+  bottom: 30px; /* Subiu um pouco o botão na imagem */
+  left: 15px;
+}
+
+.special-offer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding: 40px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+
+.offer-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.offer-text {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.offer-subtitle {
+  font-size: 18px;
+  color: #C92071;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.offer-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F1F1F;
+  margin-bottom: 20px;
+}
+
+.offer-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.offer-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #C92071;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
