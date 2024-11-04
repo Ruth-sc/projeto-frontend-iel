@@ -149,7 +149,9 @@ const HomePage = () => {
         </div>
       </section>
       <Section title="Produtos em alta">
-        <ProductListing products={products} />
+        <ProductListing products={products}
+        />
+      
       </Section>
       <section className="special-offer-section">
         <div className="offer-image-container">

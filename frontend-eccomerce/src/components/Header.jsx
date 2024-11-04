@@ -29,6 +29,7 @@ const Header = () => {
         />
         <div className="search-container" style={{ display: 'flex', alignItems: 'center', flexGrow: 1, marginLeft: '20px', marginRight: '20px', position: 'relative' }}>
           <input
+          
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}

@@ -37,7 +37,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer style={{ backgroundColor: '#1F1F1F', color: '#fff', padding: '40px' }}>
+    <footer style={{ backgroundColor: '#1F1F1F', color: '#c4c4c4', padding: '40px', fontFamily:'Roboto', fontSize: '15px', fontWeight:'normal'  }}>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
         <div>
           <div style={{ padding: '20px 0px 0px 20px' }}>
