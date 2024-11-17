@@ -53,19 +53,22 @@ A aplicação foi desenvolvida utilizando as seguintes tecnologias:
 1. **Clone o Repositório:**
 
    ```bash
-   git clone https://github.com/Ruth-sc/projeto-eccomerce-iel.git
+   git clone https://github.com/Ruth-sc/projeto-frontend.git
    cd frontend-eccomerce
 
 2. **Instale as Dependências:**
+
     Se você utiliza npm:
 
-    bash
+    ```bash
     npm install
+    ```
 
     Ou se você utiliza yarn:
 
-    bash
+    ```bash
     yarn install
+    ```
 
 3. **Abra o Nevagador:**
     Acesse http://localhost:3000 para visualizar a aplicação em execução
