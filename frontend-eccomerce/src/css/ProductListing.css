@@ -3,4 +3,5 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 0px; /* Mantém o espaçamento entre os cards */
   margin-bottom: 20px;
+
 }

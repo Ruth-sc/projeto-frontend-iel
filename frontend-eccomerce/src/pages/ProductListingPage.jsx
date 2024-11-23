@@ -109,10 +109,10 @@ const ProductListingPage = () => {
             <option value="higher-price">Maior preço</option>
           </select>
         </div>
-        <Section title={`${products.length} produtos encontrados`} titleAlign="left">
+      </div>
+      <Section >
           <ProductListing products={products} />
         </Section>
-      </div>
     </div>
   );
 };
