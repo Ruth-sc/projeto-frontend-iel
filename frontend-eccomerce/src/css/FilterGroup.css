@@ -3,7 +3,7 @@
 }
 
 .filter-title {
-  font-size: 14px;
+  font-size: 16px;
   color: #333;
   margin-bottom: 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -35,7 +35,7 @@
 .filter-option input[type="checkbox"]:checked::after,
 .filter-option input[type="radio"]:checked::after {
   content: '✔';
-  font-size: 14px;
+  font-size: 16px;
   color: white;
   position: absolute;
   top: 50%;
@@ -51,7 +51,7 @@
 
 .filter-text {
   color: #333;
-  font-size: 14px;
+  font-size: 16px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 
 }

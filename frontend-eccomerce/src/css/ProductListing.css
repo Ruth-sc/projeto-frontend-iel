@@ -1,7 +1,7 @@
 .product-listing {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0px; /* Mantém o espaçamento entre os cards */
+  gap: 0px; 
   margin-bottom: 20px;
-
+  grid-template-columns: repeat(4, 1fr)
 }
+

@@ -2,12 +2,20 @@ import React from 'react';
 import ProductCard from './ProductCard';
 import '../css/ProductListing.css';
 
-const ProductListing = ({ products }) => {
+const ProductListing = ({ 
+  products, 
+  columns = 4 // Padrão de 4 colunas
+}) => {
   return (
-    <div className="product-listing">
-      {products.map((product, index) => (
+    <div 
+      className="product-listing" 
+      style={{ 
+        gridTemplateColumns: `repeat(${columns}, 1fr)` 
+      }}
+    >
+      {products.map((product) => (
         <ProductCard
-          key={index}
+          key={product.id}
           image={product.image}
           name={product.name}
           typeProduct={product.typeProduct}
@@ -16,7 +24,7 @@ const ProductListing = ({ products }) => {
         />
       ))}
     </div>
-  );
+);
 };
 
 export default ProductListing;

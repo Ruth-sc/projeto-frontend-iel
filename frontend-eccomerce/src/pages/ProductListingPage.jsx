@@ -111,7 +111,8 @@ const ProductListingPage = () => {
         </div>
       </div>
       <Section >
-          <ProductListing products={products} />
+        <ProductListing products={products} 
+        columns={3} />
         </Section>
     </div>
   );

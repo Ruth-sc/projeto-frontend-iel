@@ -2,15 +2,15 @@
   display: flex;
   max-width: 100%;
   margin: 5px 5px ;
-  padding: 65px 20px 20px 10px;
+  padding: 65px 80px 20px 5px;
    /* Espaço entre a sidebar de filtros e a listagem de produtos */
   background-color: #f9f8fe;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 }
 
 .filters-sidebar {
   background-color: #ffffff;
-  padding: 35px 10px 30px 25px;
+  padding: 35px 2px 30px 25px;
   margin: 65px 5px 30px 10px;
   border-radius: 8px;
   width: 308px;

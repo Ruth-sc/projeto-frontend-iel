@@ -113,7 +113,7 @@
 .featured-label {
   font-size: 14px;
   color: #525151;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;;
   font-weight: bold;
 
 
@@ -124,9 +124,9 @@
   display: flex;
   gap: 10px;
   justify-content: space-between;
-  width: 100%; /* Ocupa toda a largura da tela */
+  width: 90%; 
   height: 100%;
-  padding: 10px 150px;
+  padding: 5px 65px 45px 65px;
 
 }
 
@@ -136,7 +136,7 @@
   overflow: hidden;
   text-align:left;
   width: 500px;
-  height: 250px;
+  height: 240px;
    /* Faz com que os cards cresçam proporcionalmente */
   
 }
