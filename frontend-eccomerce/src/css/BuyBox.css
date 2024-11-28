@@ -1,22 +1,26 @@
 /* src/css/BuyBox.css */
 .buy-box {
     padding: 20px;
-    border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color:#f9f8fe;
     width: 100%;
   }
   
   .product-name {
     font-size: 32px;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
+   
   }
   
   .product-reference {
     font-size: 12px;
     color: #777;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+
+
   }
   
   .product-rating {

@@ -5,7 +5,9 @@ import '../css/FilterGroup.css';
 const FilterGroup = ({ title, inputType, options }) => {
   return (
     <div className="filter-group">
+      <div class="filter-line"></div>
       <h4 className="filter-title">{title}</h4>
+    
       <ul className="filter-options">
         {options.map((option, index) => (
           <li key={index} className="filter-option">

@@ -14,7 +14,7 @@ const ProductViewPage = () => {
 
   const product = {
     name: name || "Produto sem nome",
-    reference: "REF:12345678",
+    reference: "Nike REF:12345678",
     stars: 4.7,
     rating: 90,
     price: price,
@@ -53,15 +53,14 @@ const ProductViewPage = () => {
   ];
 
   return (
-    <div className="product-view-page">
+    <><div className="product-view-page">
       <div className="product-details">
         <Gallery
           images={product.images}
           showThumbs
           width="700px"
           height="570px"
-          radius="4px"
-        />
+          radius="4px" />
         <BuyBox
           name={product.name}
           reference={product.reference}
@@ -75,19 +74,18 @@ const ProductViewPage = () => {
             options={product.sizes}
             shape="square"
             type="text"
-            radius="4px"
-          />
+            radius="4px" />
           <ProductOptions
             options={product.colors}
             shape="circle"
-            type="color"
-          />
+            type="color" />
         </BuyBox>
       </div>
-      <Section title="Produtos Relacionados" titleAlign="left">
-        <ProductListing products={relatedProducts} />
-      </Section>
-    </div>
+    </div><div className= "listing-view">
+        <Section title="Produtos Relacionados" titleAlign="left">
+          <ProductListing products={relatedProducts} />
+        </Section>
+      </div></>
   );
 };
 
