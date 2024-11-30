@@ -2,7 +2,7 @@
   width: 292px;
   height: 439px;
   padding: 4px;
-  margin: 20px 5px;
+  margin: 30px 5px;
   position: relative;
   border-radius: 2px;
   overflow: hidden;
@@ -41,7 +41,7 @@
 
 .product-name {
   margin: 2px 0px;
-  font-size: 14px;
+  font-size: 10px;
   font-weight:100;
   color: #575757;
 }

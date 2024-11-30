@@ -10,16 +10,41 @@ import '../css/ProductViewPage.css';
 const ProductViewPage = () => {
   const { state } = useLocation();
 
-  const { image, name, typeProduct, price, priceDiscount } = state || {};
-
+  const { image, name, typeProduct, price, priceDiscount,  } = state || {};
+  
+  
+  
   const product = {
+    image: [
+      { 
+        src: '/images/produc-image-1.jpeg',
+        thumbnail: '/images/product-thumb-1.jpeg'
+      },
+      { 
+        src: '/images/produc-image-2.jpeg',
+        thumbnail: '/images/product-thumb-2.jpeg'
+      },
+      { 
+        src: '/images/produc-image-3.jpeg',
+        thumbnail: '/images/product-thumb-3.jpeg'
+      },
+      { 
+        src: '/images/produc-image-4.jpeg',
+        thumbnail: '/images/product-thumb-4.jpeg'
+      },
+      { 
+        src: '/images/produc-image-5.jpeg',
+        thumbnail: '/images/product-thumb-5.jpeg'
+      },
+    ],
+  
     name: name || "Produto sem nome",
     reference: "Nike REF:12345678",
     stars: 4.7,
     rating: 90,
     price: price,
     priceDiscount: priceDiscount,
-    description: "Descrição padrão do produto.",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercition ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     images: [{ src: image }],
     sizes: ["39", "40", "41", "42", "43"],
     colors: ["#3B82F6", "#10B981", "#C92071"],
@@ -56,8 +81,9 @@ const ProductViewPage = () => {
     <><div className="product-view-page">
       <div className="product-details">
         <Gallery
-          images={product.images}
-          showThumbs
+          images={product.image}
+          showThumbs={true}
+          thumbsRadius="4px" 
           width="700px"
           height="570px"
           radius="4px" />
@@ -87,6 +113,6 @@ const ProductViewPage = () => {
         </Section>
       </div></>
   );
-};
+}
 
 export default ProductViewPage;
