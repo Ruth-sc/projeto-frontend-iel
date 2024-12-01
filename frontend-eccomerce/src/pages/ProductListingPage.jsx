@@ -100,20 +100,13 @@ const ProductListingPage = () => {
           ))}
         </div>
       </aside>
-      <div className="section-wrapper">
-        <div className="order-by">
-          <label htmlFor="order-select" className="order-label">Ordenar por:</label>
-          <select id="order-select" className="order-select">
-            <option value="relevant">Mais relevantes</option>
-            <option value="lower-price">Menor preço</option>
-            <option value="higher-price">Maior preço</option>
-          </select>
-        </div>
-      </div>
+      
+      <div className="product-list-page"> 
       <Section >
         <ProductListing products={products} 
         columns={3} />
         </Section>
+        </div>
     </div>
   );
 };

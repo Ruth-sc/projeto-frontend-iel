@@ -1,57 +1,76 @@
 .product-listing-container {
   display: flex;
-  max-width: 100%;
+  max-width: 1295px;
+  margin: 5px;
   margin: 5px 5px ;
   padding: 65px 80px 20px 5px;
-   /* Espaço entre a sidebar de filtros e a listagem de produtos */
   background-color: #f9f8fe;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 }
 
 .filters-sidebar {
   background-color: #ffffff;
-  padding: 35px 2px 30px 25px;
+  padding: 35px 2px 30px 20px;
   margin: 65px 5px 30px 10px;
   border-radius: 8px;
   width: 308px;
-  flex-shrink: 0; /* Mantém o tamanho fixo do sidebar */
-  max-height: 130vh; /* Limita a altura da sidebar */
+  flex-shrink: 0;
+  max-height: 130vh;
   
 }
 
-.section-wrapper {
+@media (max-width: 1024px) {
+  .product-listing-container {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+.product-listing {
   flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  max-width: calc(100% - 5px) /* Ajuste para o espaço disponível ao lado dos filtros */
+  display: grid;
+  grid-gap: 2px;
+  margin: 65px 5px 20px 2px;
+
 }
 
 .order-by {
   display: flex;
   justify-content: flex-end;
-  align-items: center; /* Centralizar verticalmente */
+  align-items: center;
   margin-bottom: 20px;
 }
 
 .order-label {
-  font-size: 16px; /* Fonte menor para corresponder à imagem */
-  font-weight: bold;
-  color: #333; /* Cor aproximada ao tom escuro */
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
   margin-right: 10px;
 }
 
 .order-select {
-  padding: 20px 15px; /* Ajuste do padding para um tamanho mais compacto */
-  border-radius: 4px; /* Bordas arredondadas */
-  font-size: 16px; /* Fonte menor */
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 16px;
   background-color: #f9f8fe;
-  color: #333; /* Cor do texto */
-  appearance: none; /* Remove o estilo padrão do select */
+  color: #333;
+  border: 1px solid #e0e0e0;
+  appearance: none;
+  cursor: pointer;
 }
 
 
-.order-select:focus {
-  outline: none;
-  border-color: #666; /* Cor mais escura no foco */
-}
 
+  .filters-sidebar {
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 20px;
+  }
+
+  .product-listing {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    margin: 20px;
+  }
+
+  .order-by {
+    justify-content: center; 
+  }
+}
